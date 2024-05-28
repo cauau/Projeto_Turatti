@@ -4,10 +4,13 @@ elabore um programa em c que sorteie 6 números distintos e os armazene em um ve
 O codigo foi colocado aqui pois não consegui subir o arquivo:
 
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <time.h>
 
 void bubbleSort(int vetor[], int tamanho) {
+
     int i, j, temp;
     for (i = 0; i < tamanho - 1; i++) {
         for (j = 0; j < tamanho - i - 1; j++) {
